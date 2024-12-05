@@ -1,0 +1,74 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: teal;
+}
+
+.container{
+
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center{
+
+    text-align:center;
+}
+
+.text-white{
+    color: white;
+}
+
+.mt-5{
+    margin-top: 30px;
+}
+
+form{
+
+    width:40%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #ddd;
+    background-color: white;
+    padding: 40px 30px;
+}
+
+form > div{
+    margin-bottom: 15px;
+}
+
+form input[type="text"], input[type="password"]{
+    padding: 6px;
+    width: 70%;
+}
+
+form div label{
+    width:70px;
+    display: inline-block;
+}
+
+.btn-mx{
+
+    display: block;
+    margin:auto;
+    width: 70%;
+    padding: 6px;
+}
+
+.btn-primary{
+    background-color: blue;
+    color:white;
+}
+
+.btn-primary:hover{
+    background-color: rgba(red, green, blue, 0.3);
+    cursor: pointer;
+}
